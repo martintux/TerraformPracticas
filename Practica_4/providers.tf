@@ -2,10 +2,10 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"  #fuente
-      version = ">=4.36.0, <4.47.0, !=4.43.0" #version aws
-      }
+      version = ">=4.36.0, <4.47.0, !=4.43.0" #version aws mayor o igual que la v.4.36
+      }         #menor que la 4.47 pero diferente a la 4.43
   }
-  required_version = "~>1.3.0" #version terraform
+  required_version = "~>1.7.0" #version terraform
   #version = "=0.15.0"  #admite exclusivamente la version 0.15
   #version = ">=0.15.0"  #admite la v 0.15 y superiores
   #version = "~>=0.15.0"  #admite las versiones 0.15.0 hasta la ultima de la ver 0.15 ...por ejemplo 0.15.9
